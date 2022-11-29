@@ -1,0 +1,90 @@
+body {
+  background-image: url('https://luca.restaurant/wp-content/uploads/RESTAURANT_6_048-1.jpg');
+  font-size: 125%;
+}
+<!----https://luca.restaurant/wp-content/uploads/main_bg-1400x1056.jpg---->
+
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 15px;
+  overflow: hidden;
+  background-color : rgba(184, 229, 250, 0)
+  border: none;
+  font-size: 20px;
+}
+
+li {
+  float: left;
+  list-style: none;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+nav li + li:before {
+  color: white;
+  content: " | ";
+}
+
+.navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+#reservations {
+  background-color: white;
+  padding: 5px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#reservations a {
+  color: black;
+}
+
+
+.title > img {
+  display: block;
+  align-items: center;
+  padding: 30vh;
+  width: 35%;
+  height: 35%;
+}
+
+.social {
+  padding-bottom: 10vh;
+}
+
+.social > .social1 {
+  float: left;
+}
+
+.social > .social2 {
+  float: right;
+}
+
+.box1_text {
+  font-size: 150%;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+.box1 {
+  width: 78vw;
+  padding: 10%;
+  background-color: white;
+  color: black
+}

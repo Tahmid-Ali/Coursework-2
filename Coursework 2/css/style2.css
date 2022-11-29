@@ -1,0 +1,113 @@
+body {
+  background-color: lightgreen;
+  font-size: 125%;
+}
+
+.navigation > nav > ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 15px;
+  overflow: hidden;
+  background-color : rgba(184, 229, 250, 0)
+  border: none;
+  font-size: 20px;
+}
+
+.navigation > nav > ul > li {
+  float: left;
+  list-style: none;
+}
+
+.navigation > nav > ul > nav > ul > li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation > nav > ul > li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.navigation > nav li + li:before {
+  color: white;
+  content: " | ";
+}
+
+.navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+#reservations {
+  background-color: white;
+  padding: 5px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#reservations a {
+  color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffcc33;
+    margin: auto;
+}
+
+.box1 {
+  float: left;
+  width: 50%;
+  height: 100vh;
+  background-color: #FF4500;
+}
+
+.box1 > #box1_title {
+  text-align: center;
+  font-size: 500%;
+  padding-top: 10vh;
+}
+
+.box1 > #box1_text {
+  text-align: center;
+  font-size: 125%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.box2 {
+  float: right;
+  width: 50%;
+  height: 100vh;
+}
+
+img {
+  width: 100vw;
+  height: 100vh
+  padding: 0;
+  margin: 0;
+}
+
+.container > .box1 > a {
+}
+
+.container > .box1 > a:link, a:visited {
+  background-color: rgba(184, 229, 250, 0);
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+
+}
+
+.container > .box1 > a:hover, a:active {
+  display: block;
+  position: absolute;
+  background-color: white;
+}
